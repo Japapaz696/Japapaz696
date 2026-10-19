@@ -39,7 +39,7 @@ Atendimento técnico a usuários, acompanhamento de chamados, consultas SQL para
 | Git, GitHub e GitHub Pages | Versionamento, repositórios públicos e publicação do portfólio |
 | React, TypeScript e Vite | Front-end do SupportFlow |
 | Node.js, Express e PostgreSQL | Backend, API e persistência do SupportFlow |
-| Testes | Vitest e Supertest no SupportFlow; `node:test` nas regras de agendamento do Seu Manoel |
+| Testes | Vitest e Supertest no SupportFlow; `node:test` nas regras de agendamento do Seu Manoel e no tratamento de senha da barbearia |
 | n8n, APIs e LLMs | Estudos e experimentos de automação, sem integração em produção |
 
 ---
@@ -50,6 +50,7 @@ Atendimento técnico a usuários, acompanhamento de chamados, consultas SQL para
 |---|---|---|---|
 | **Portfólio pessoal** | Site editorial com trajetória, competências, projetos e demonstrações navegáveis | Publicado | [Código](https://github.com/Japapaz696/Repositorio-Curriculo) · [Site](https://japapaz696.github.io/Repositorio-Curriculo/) |
 | **SupportFlow** | Sistema de chamados full-stack com autenticação JWT, perfis de acesso, SLA, comentários, dashboard e diagnóstico técnico | Em desenvolvimento · 80 testes de integração no backend | [Código](https://github.com/Japapaz696/SupportFlow) |
+| **Barbearia** | Demo de agendamento e fidelidade para barbearia, com PWA, área do cliente e painel administrativo | Publicado · senha guardada como derivador PBKDF2, 10 testes | [Código](https://github.com/Japapaz696/barbearia) · [Site](https://japapaz696.github.io/barbearia/) |
 | **Portfolio Anna** | Site pessoal multipágina com identidade visual, navegação mobile, animações e galeria com lightbox | Publicado | [Código](https://github.com/Japapaz696/Portfolio-Anna) · [Site](https://japapaz696.github.io/Portfolio-Anna/) |
 | **Lucas Dev** | Landing page de serviços com configurador de orçamento e contato por WhatsApp | Publicado · demonstração front-end | [Código](https://github.com/Japapaz696/Lucas) · [Site](https://japapaz696.github.io/Lucas/) |
 
@@ -59,11 +60,12 @@ Atendimento técnico a usuários, acompanhamento de chamados, consultas SQL para
 
 ## 04 — Transparência
 
-- **Publicado e navegável:** portfólio, Portfolio Anna, Lucas Dev e as três demos embutidas.
+- **Publicado e navegável:** portfólio, Portfolio Anna, Lucas Dev, a barbearia e as três demos embutidas.
 - **Backend real:** o SupportFlow tem API Express, PostgreSQL com migrations, autenticação JWT, controle de acesso e 80 testes de integração. O fluxo completo foi validado localmente contra PostgreSQL 16 real, incluindo as permissões de cada perfil e o controle de acesso da interface. A implantação pública ainda não está disponível — por isso, o link principal é o código.
 - **Demonstração no navegador:** Papitos, Beauty Store e Seu Manoel usam `localStorage`. Não há pagamento, frete, estoque ou agenda multiusuário em produção.
 - **Simulação:** os experimentos de IA do laboratório são interfaces e cenários locais; não representam integrações ativas com modelos, CRMs ou WhatsApp Business.
 - **Dados:** capturas e demonstrações usam dados fictícios. Não publico dados de clientes ou pacientes em exemplos do portfólio.
+- **Limite conhecido:** a verificação de login da barbearia acontece no navegador, como todo protótipo sem backend. A senha não é gravada em texto puro — fica um derivador PBKDF2 — mas a proteção real exigiria a verificação no servidor.
 
 ---
 
