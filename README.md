@@ -34,7 +34,7 @@ Atendimento técnico a usuários, acompanhamento de chamados, consultas SQL para
 | Área | Como aparece no meu trabalho |
 |---|---|
 | Suporte a ERP e atendimento técnico | Rotina profissional de suporte ao TecFood, com acompanhamento de chamados e contato com usuários |
-| SQL | Consultas para verificação de registros e diagnóstico de divergências no suporte |
+| SQL | Consultas para verificação de registros e diagnóstico de divergências no suporte; laboratório de SQL com 10 cenários de ERP |
 | HTML5, CSS3 e JavaScript | Portfólio e demonstrações web publicadas |
 | Git, GitHub e GitHub Pages | Versionamento, repositórios públicos e publicação do portfólio |
 | React, TypeScript e Vite | Front-end do SupportFlow |
@@ -50,6 +50,7 @@ Atendimento técnico a usuários, acompanhamento de chamados, consultas SQL para
 |---|---|---|---|
 | **Portfólio pessoal** | Site editorial com trajetória, competências, projetos e demonstrações navegáveis | Publicado | [Código](https://github.com/Japapaz696/Repositorio-Curriculo) · [Site](https://japapaz696.github.io/Repositorio-Curriculo/) |
 | **SupportFlow** | Sistema de chamados full-stack com autenticação JWT, quatro perfis de acesso, SLA por prioridade, comentários, dashboard e diagnóstico técnico | Em desenvolvimento · **116 testes** e CI verde | [Código](https://github.com/Japapaz696/SupportFlow) |
+| **SQL Lab** | Laboratório de SQL para diagnóstico e suporte a ERP: 10 cenários com consultas PostgreSQL que rodam de verdade sobre um banco de vendas, pedidos, produtos, pagamentos, estoque e chamados | MVP · **45 testes** e CI verde | [Código](https://github.com/Japapaz696/sql-lab) |
 | **Site-veronica** | Agendamento de consultas com persistência em PostgreSQL, sessão administrativa em cookie `HttpOnly` e token opaco por paciente | Em desenvolvimento · **83 testes** | [Código](https://github.com/Japapaz696/Site-veronica) |
 | **Barbearia** | Demo de agendamento e fidelidade para barbearia, com PWA, área do cliente e painel administrativo | Publicado · senha guardada como derivador PBKDF2, 10 testes | [Código](https://github.com/Japapaz696/barbearia) · [Site](https://japapaz696.github.io/barbearia/) |
 | **Portfolio Anna** | Site pessoal multipágina com identidade visual, navegação mobile, animações e galeria com lightbox | Publicado | [Código](https://github.com/Japapaz696/Portfolio-Anna) · [Site](https://japapaz696.github.io/Portfolio-Anna/) |
