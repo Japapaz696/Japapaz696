@@ -63,7 +63,7 @@ Atendimento técnico a usuários, acompanhamento de chamados, consultas SQL para
 ## 04 — Transparência
 
 - **Publicado e navegável:** portfólio, Portfolio Anna, Lucas Dev, a barbearia e as três demos embutidas.
-- **Backend real:** o SupportFlow tem API Express, PostgreSQL com migrations, autenticação JWT, controle de acesso e **116 testes** — 80 de integração contra PostgreSQL 16 real, 26 de interface e 10 de contrato. O fluxo completo foi validado localmente, incluindo as permissões de cada perfil e o controle de acesso da interface. O Site-veronica acrescenta 90 testes (80 sem banco e 11 contra PostgreSQL) e a barbearia, 10.
+- **Backend real:** o SupportFlow tem API Express, PostgreSQL com migrations, autenticação JWT, controle de acesso e **116 testes** — 80 de integração contra PostgreSQL 16 real, 26 de interface e 10 de contrato. O fluxo completo foi validado localmente, incluindo as permissões de cada perfil e o controle de acesso da interface. O Site-veronica acrescenta 90 testes (sem banco; 11 adicionais contra PostgreSQL quando configurado) e a barbearia, 10.
 - **Demonstração no navegador:** Papitos, Beauty Store e Seu Manoel usam `localStorage`. Não há pagamento, frete, estoque ou agenda multiusuário em produção.
 - **Simulação:** os experimentos de IA do laboratório são interfaces e cenários locais; não representam integrações ativas com modelos, CRMs ou WhatsApp Business.
 - **Dados:** capturas e demonstrações usam dados fictícios. Não publico dados de clientes ou pacientes em exemplos do portfólio.
